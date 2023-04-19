@@ -1,7 +1,7 @@
 num = int(input('enter number')
 num1 = num
 while (num != 0):
-  rem %= 10
+  rem = num % 10
   rev = rev*10 + rem
   num /= 10
 if (num1 == rev):
